@@ -1,0 +1,39 @@
+{
+    "name": "bvlbhargav.me",
+    "version": "1.0.0",
+    "description": "Lakshmi Bhargava Personal WebSite",
+    "main": "Scripts/app.js",
+    "babel": {
+        "presets": ["env"]
+    },
+    "dependencies": {
+        "loadash": "0.0.1",
+        "react": "^15.5.4",
+        "react-dom": "^15.5.4"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-preset-env": "^1.4.0",
+        "babel-preset-react": "^6.24.1",
+        "webpack": "^2.5.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bvlbhargav/bvlbhargav.me.git"
+    },
+    "keywords": [
+        "bhargava",
+        "profile",
+        "personal"
+    ],
+    "author": "Lakshmi Bhargava",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bvlbhargav/bvlbhargav.me/issues"
+    },
+    "homepage": "https://github.com/bvlbhargav/bvlbhargav.me#readme"
+}

@@ -1,5 +1,12 @@
-// Primary placehoolder for the scripts for bvlbhargav.me project
+import _ from 'lodash';
 
-//Rendering HellowWorld component on page
+function component () {
+  var element = document.createElement('div');
 
-ReactDOM.Render(<helloWorld/>,document.getElementById('content'));
+  /* lodash is required for the next line to work */
+  element.innerHTML = _.join(['Hello','webpack'], ' ');
+
+  return element;
+}
+
+document.body.appendChild(component());
